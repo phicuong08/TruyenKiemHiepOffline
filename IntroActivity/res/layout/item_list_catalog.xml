@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/bullet_catalog" android:focusable="false" android:layout_width="wrap_content" android:layout_height="@dimen/list_item_height" android:src="@drawable/catalogicon" android:contentDescription="@string/empty" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="normal" android:textColor="#ff104e63" android:textColorHighlight="#ff333333" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/text_view_catalog" android:paddingLeft="5.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height" android:singleLine="true" android:layout_toRightOf="@+id/bullet_catalog" />
+    <ImageView android:gravity="center_vertical" android:id="@+id/bullet_Right" android:layout_width="wrap_content" android:layout_height="@dimen/list_item_height" android:src="@drawable/icon_next" android:layout_alignParentRight="true" android:contentDescription="@string/empty" />
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_title_color">#ff224894</color>
+    <color name="actionbar_subtitle_color">#ff104e63</color>
+    <color name="tabbar_background">#ff000000</color>
+    <color name="tabbar_text">#ffa9a9a9</color>
+    <color name="clickable_label">#ff3f87bf</color>
+    <color name="tweet_text_count_error">#ffff0000</color>
+    <color name="tweet_text_count">#ffffffff</color>
+    <color name="tweet_reply_base_text">#ff555555</color>
+    <color name="tweet_sub_menu_bg">#ffffffff</color>
+    <color name="hot_title">#ff555555</color>
+    <color name="hot_bg">#ffddeeff</color>
+    <color name="hot_word_bg">#ffffffff</color>
+    <color name="dialog_text_color">#ffffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="text_gray">#ff282828</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="light_gray">#ffb2b2b2</color>
+    <color name="text_purple">#ff602c65</color>
+    <color name="trans_black">#cc000000</color>
+    <color name="trans_gray">#e63e3e3e</color>
+    <color name="trans_white">#bbffffff</color>
+    <color name="text_blue">#ff4786a7</color>
+</resources>

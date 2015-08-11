@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/reader_notification_bar_textsize" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="center" android:id="@+id/tvnotification" android:background="@drawable/bg_noti_top" android:paddingLeft="5.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/reader_notification_bar_height" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    <ListView android:id="@+id/chapterlist" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@drawable/transparent_background" android:cacheColorHint="@drawable/transparent_background" android:layout_weight="0.9" android:fastScrollEnabled="true" />
+    <LinearLayout 
+		android:orientation="vertical" 
+		android:id="@+id/ads" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" >
+		<com.google.android.gms.ads.AdView
+        	android:id="@+id/adView"	
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        ads:adSize="BANNER"
+	        ads:adUnitId="@string/ADS_Admob">
+    	</com.google.android.gms.ads.AdView>
+	</LinearLayout>
+</LinearLayout>

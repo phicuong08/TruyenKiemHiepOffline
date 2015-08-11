@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@drawable/intro" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@+id/btnRead" android:background="@drawable/button" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="Đọc Truyện" style="@style/ButtonText" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/button_height" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
+        <Button android:id="@+id/btnStore" android:background="@drawable/button" android:layout_width="wrap_content" android:layout_height="@dimen/button_height" android:layout_marginRight="5.0dip" android:text="Thêm Truyện" android:layout_weight="1.0" style="@style/ButtonText" />
+        <Button android:id="@+id/btnContact" android:background="@drawable/button" android:layout_width="wrap_content" android:layout_height="@dimen/button_height" android:text="Góp Ý" android:layout_weight="1.0" style="@style/ButtonText" />
+    </LinearLayout>
+    <Button android:id="@+id/btnExit" android:background="@drawable/button" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="Thoát" style="@style/ButtonText" />
+</LinearLayout>

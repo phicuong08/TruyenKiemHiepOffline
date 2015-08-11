@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="store_picture_title">Save image</string>
+    <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="empty" />
+    <string name="hello">Hello</string>
+    <string name="app_name">Truyện Kiếm Hiệp Offline</string>
+    <string name="author_name">Tác giả: Nhiều Tác Giả</string>
+    <string name="ADS_Admob">ca-app-pub-9130910269985065/3653594636</string>
+    <string name="ADS_Admob_full">ca-app-pub-9130910269985065/4399873438</string>
+    <string name="toggle_title">Toggle title</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_info">More App</string>
+    <string name="reader_notification">HOT !!! Nhấn vào đây để tải và đọc nhiều truyện hơn</string>
+    <string name="search_go">Search</string>
+    <string name="searchview_description_search">Search</string>
+    <string name="searchview_description_query">Search query</string>
+    <string name="searchview_description_clear">Clear query</string>
+    <string name="searchview_description_submit">Submit query</string>
+    <string name="searchview_description_voice">Voice search</string>
+    <string name="categories">DANH MỤC</string>
+    <string name="no_network">Lỗi kết nối, vui lòng kiểm tra lại đường truyền</string>
+    <string name="loading">Đang tải truyện, vui lòng chờ</string>
+    <string name="retry">Thử lại</string>
+    <string name="exit">Thoát</string>
+    <string name="crash_toast_text">Close application, Please send this error to us</string>
+    <string name="database_name">truyenkiemhiep</string>
+</resources>
